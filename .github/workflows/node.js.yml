@@ -29,8 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build
     - run: npm run export
-    - name: Activate GitHub Actions Bot
-      uses: actions/first-interaction@v1
+
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
