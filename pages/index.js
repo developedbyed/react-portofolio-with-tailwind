@@ -61,26 +61,39 @@ export default function Home() {
               ML Engineer / Software Developer
             </h3>
             <p className="text-gray-800 text-md py-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-white">
-              Hi, I'm Kenneth, a data enthusiast, machine learning practitioner
-              and software developer. My passion lies in exploring and analyzing
-              complex data sets, identifying patterns, and deriving insights to
-              help drive informed decision-making.
+              Hi, I&apos;m Kenneth, a data enthusiast, machine learning
+              practitioner and software developer. My passion lies in exploring
+              and analyzing complex data sets, identifying patterns, and
+              deriving insights to help drive informed decision-making.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://twitter.com/Kenneth04718429" target="_blank">
+            <a
+              href="https://twitter.com/Kenneth04718429"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillTwitterCircle />
             </a>
             <a
               href="https://www.linkedin.com/in/kenneth-lo-84a871259/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <AiFillLinkedin />
             </a>
-            <a href="https://github.com/HkgCory" target="_blank">
+            <a
+              href="https://github.com/HkgCory"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillGithub />
             </a>
-            <a href="https://www.kaggle.com/lokinhang" target="_blank">
+            <a
+              href="https://www.kaggle.com/lokinhang"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaKaggle />
             </a>
           </div>
