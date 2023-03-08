@@ -32,6 +32,6 @@ jobs:
 
 
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v2
+      uses: JamesIves/github-pages-deploy-action@v3
       with:
           folder: out # The folder the action should deploy.
