@@ -1,7 +1,7 @@
 import Head from "next/head";
 // import {BsFillMoonStarsFill} from "react-icons/bs";
 import {SlLocationPin} from "react-icons/sl";
-import { SiTailwindcss, SiJavascript, SiTypescript, SiReact, SiCss3, SiLinkedin, SiGithub  } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiTypescript, SiReact, SiCss3, SiLinkedin, SiGithub, SiHtml5  } from "react-icons/si";
 import Image from "next/image";
 import deved from "../public/ME.jpg";
 export default function Home() {
@@ -17,37 +17,47 @@ export default function Home() {
         <nav classname="py-10 mb-12 flex justify-between">
           <a className="text-1.5xl font-Helvetica font-extrabold hover:text-teal-300 transition duration-300">Amani.dev</a>
           <div class="flex md:flex md:flex-grow flex-row-reverse space-x-1">
-            <a href="" class="py-4 px-2 text-black-500 font-semibold hover:text-teal-300 transition duration-300 ">Contact</a>
-            <a href="" class="py-4 px-2 text-black-500 font-semibold hover:text-teal-300 transition duration-300">Projects</a>
-            <a href="" class="py-4 px-2 text-black-500 font-semibold hover:text-teal-300 transition duration-300">About</a>
-            <a href="" class="py-4 px-2 text-black-500 font-semibold hover:text-teal-300 transition duration-300">Home</a>
+            <a href="" class="py-4 px-2 text-black-500 font-Helvetica font-semibold hover:text-teal-300 transition duration-300 ">Contact</a>
+            <a href="" class="py-4 px-2 text-black-500 font-Helvetica font-semibold hover:text-teal-300 transition duration-300">Projects</a>
+            <a href="" class="py-4 px-2 text-black-500 font-Helvetica font-semibold hover:text-teal-300 transition duration-300">About</a>
+            <a href="" class="py-4 px-2 text-black-500 font-Helvetica font-semibold hover:text-teal-300 transition duration-300">Home</a>
           </div>
           <ul className="flex items-center">
             {/* <li><BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
             </li> */}
-            <li><a className=" bg bg-gradient-to-r from-cyan-500 to-teal-500 text-white-px-4 py-2 rounded-md ml-2" href="#">Resume</a>
-            </li>
+            {/* <li><a className=" bg bg-gradient-to-r from-cyan-500 to-teal-500 text-white-px-4 py-2 rounded-md ml-2" href="#">Resume</a>
+            </li> */}
           </ul>
         </nav>
         <div className="text-center p-10">
           {/* <h2 className="text-5xl py-2 text-teal-600 font-medium">Amani Jean-Louis</h2> */}
-          <h3 className="text-2xl py-2 font-extrabold md:text-3xl">Front-End React Developer</h3>
-          <p className="text-center py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto"> Hi, I'm Amani Jean-Louis. A passionate Front-End React Developer based in Austin, Texas.</p>
+          <h3 className="text-2xl py-1 font-extrabold font-Helvetica md:text-3xl">Front-End React Developer</h3>
+          <p className="text-center py-3 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto font-Helvetica"> Hi, I'm Amani Jean-Louis. A passionate Front-End React Developer based in Austin, Texas.</p>
         </div>
-        <div className="text-5xl flex justify-center gap-3 py-3 text-black-500">
-          <SiLinkedin color="#0072b1"/>
-          <SiGithub color="#171515"/>  
+        <div className="text-3xl flex justify-center gap-2 py-1 text-black-500">
+          <div>
+          <a href="https://www.linkedin.com/in/amani-jean-louis-516009b9/">
+            <SiLinkedin color="#0072b1"/>
+          </a>
+          </div>
+          <div>  
+          <a href="https://github.com/ajeanlou">        
+          <SiGithub color="#171515"/>
+          </a> 
+          </div> 
           {/* <SlLocationPin color="red" size={'0.4em'}/>              */}
         </div>
         <div class="relative mx-auto bg-gradient-to-b rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
           <Image src={deved} layout="fill" objectFit="cover"/>
+     
         </div>
-       <div className="text-3xl flex justify-center gap-10 py-16 text-black-500 font-Helvetica font-extrabold"> Tech Stack |
-        <SiTailwindcss size={'1em'} color="#3490dc"/>
+       <div className="text-2xl flex justify-center gap-10 py-16 text-black-500 font-Helvetica font-extrabold"> Tech Stack |
+        <SiHtml5 size={'1em'}  color="#e34c26"/>
+        <SiCss3 size={'1em'}  color="#2965f1"/>
         <SiJavascript size={'1em'}  color="#F0DB4F"/> 
+        <SiTailwindcss size={'1em'} color="#3490dc"/>        
         <SiTypescript size={'1em'}  color="#007acc"/> 
         <SiReact size={'1em'} color="#61DBFB"/>
-        <SiCss3 size={'1em'}  color="#2965f1"/>
        </div> 
       </section>
       <section>
