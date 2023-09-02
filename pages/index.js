@@ -65,7 +65,7 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden mt-20 md:h-80 md:w-80 lg:h-96 lg:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
