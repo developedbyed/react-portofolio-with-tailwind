@@ -65,15 +65,17 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+            <div className="flex justify-center">
+              <div className="bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+                <Image src={deved} fill style={{ objectFit: "cover" }} />
+              </div>
             </div>
           </div>
         </section>
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-justify">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -88,7 +90,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} className="mx-auto my-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -103,7 +105,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} className="mx-auto my-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -118,7 +120,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} className="mx-auto my-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -135,7 +137,7 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-justify">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
